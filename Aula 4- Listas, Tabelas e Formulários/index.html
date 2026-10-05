@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 4</title>
+    <style>
+        table,
+        td, 
+        th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+
+        .tabelainterna th {
+            background-color: blueviolet;
+            color:snow
+        }
+    </style>
+</head>
+
+<body>
+    <dl>
+        <header>
+            <h1>Listas, tabelas e formulários</h1>
+        </header>
+        <main>
+            <section>
+                <h2>Glossário</h2>
+                <dl>
+                    <dt>HTML:</dt>
+                    <dd>Linguagem de marcação usada para estruturar páginas na web</dd>
+
+                    <dt>CSS:</dt>
+                    <dd>Folhas de estilo, usadas para definir aparência e layout.</dd>
+
+                    <dt>JavaScript:</dt>
+                    <dd>linguagem de programação usada para adicionar interatividade às páginas</dd>
+                </dl>
+            </section>
+            <hr>
+            <section>
+                <h2>Tabelas</h2>
+                <table width="300" ; height="400" ; cellpadding="30" ; cellspacing="30" ;>
+                    <tr>
+                        <th colspan="2">Nome e idade</th>
+                        <!-- <th>Idade</th>-->
+                    </tr>
+                    <tr>
+                        <td rowspan="2" align="center" valign="middle">Raíssa</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <!--<td>Antonio</td>-->
+                        <td>22</td>
+                    </tr>
+                    <tr>
+                        <td>Beatriz</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td>José</td>
+                        <td>19</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table class="tabelainterna">
+                                <tr>
+                                    <th colspan="2"> Tabela na tabela</th>
+                                </tr>
+                                <tr>
+                                    <td>teste</td>
+                                    <td>teste</td>
+                                </tr>
+                                <tr>
+                                    <td>:D</td>
+                                    <td>:D</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </main>
+    </dl>
+</body>
+
+</html>
