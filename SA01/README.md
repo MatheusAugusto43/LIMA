@@ -1,0 +1,1 @@
+A cor azul foi escolhida por trazer um ar profissional e não agressivo. Além de trazer paz, harmonia e credibilidade.
